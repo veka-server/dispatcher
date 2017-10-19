@@ -99,7 +99,7 @@ class Dispatcher implements RequestHandlerInterface {
      *
      * @return void
      */
-    function send(ResponseInterface $response)
+    public function send(ResponseInterface $response)
     {
         $http_line = sprintf('HTTP/%s %s %s',
             $response->getProtocolVersion(),

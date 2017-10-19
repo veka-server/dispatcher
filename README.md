@@ -49,6 +49,6 @@ Affiche la reponse a l'ecran
 ```php
 // si la reponse est presente ont l'affiche
 if($response instanceof \Psr\Http\Message\ResponseInterface)
-    send($response);
+    $Dispatcher->send($response);
 ```
 
