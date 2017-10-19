@@ -4,9 +4,14 @@ Il est basé sur tuto de grafikart.fr sur les middleware PSR.
 Il sera ammené a evolué pour maintenir les normes PSR.
 
 # Installation
-Via composer
+Via composer lorsqu'une version stable sera dispo
 ```
 composer require veka-server/dispatcher
+```
+
+Via le fichier JSON de composer
+```
+"veka-server/dispatcher": "dev-master@dev"
 ```
 
 # Utilisation
