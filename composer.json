@@ -17,7 +17,6 @@
     "require": {
         "psr/http-message": "^1.0",
         "guzzlehttp/psr7": "^1.4",
-        "http-interop/response-sender": "^1.0",
         "http-interop/http-middleware": "^0.5.0"
     }
 }
