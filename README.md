@@ -9,7 +9,7 @@ Via composer lorsqu'une version stable sera dispo
 composer require veka-server/dispatcher
 ```
 
-Via le fichier JSON de composer
+Via le fichier JSON de composer - DEV VERSION
 ```
 "veka-server/dispatcher": "dev-master@dev"
 ```
