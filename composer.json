@@ -1,0 +1,23 @@
+{
+    "name": "veka-server/dispatcher",
+    "description": "Un dispatcher PSR-7 et PSR-15 minimaliste",
+    "license": "MIT",
+    "keywords": ["PSR4","PSR15","PSR","middleware"],
+    "authors": [
+        {
+            "name": "Vanhaezebrouck Nicolas",
+            "email": "contact@veka-server.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "VekaServer\\Dispatcher\\" : "src/"
+        }
+    },
+    "require": {
+        "psr/http-message": "^1.0",
+        "guzzlehttp/psr7": "^1.4",
+        "http-interop/response-sender": "^1.0",
+        "http-interop/http-middleware": "^0.5.0"
+    }
+}
