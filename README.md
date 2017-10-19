@@ -3,6 +3,12 @@ Un dispatcher PSR-7 et PSR-15 ultra minimaliste.
 Il est basé sur tuto de grafikart.fr sur les middleware PSR.
 Il sera ammené a evolué pour maintenir les normes PSR.
 
+# Installation
+Via composer
+```
+composer require veka-server/dispatcher
+```
+
 # Utilisation
 Création de l'instance du dispatcher
 ```php
