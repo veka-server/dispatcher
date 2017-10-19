@@ -2,7 +2,7 @@
     "name": "veka-server/dispatcher",
     "description": "Un dispatcher PSR-7 et PSR-15 minimaliste",
     "license": "MIT",
-    "keywords": ["PSR4","PSR15","PSR","middleware"],
+    "keywords": ["PSR7","PSR15","PSR","middleware"],
     "authors": [
         {
             "name": "Vanhaezebrouck Nicolas",
