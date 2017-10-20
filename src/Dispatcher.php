@@ -96,7 +96,7 @@ class Dispatcher implements RequestHandlerInterface {
 
     /**
      * Send an HTTP response
-     *
+     * @param ResponseInterface $response
      * @return void
      */
     public function send(ResponseInterface $response)
